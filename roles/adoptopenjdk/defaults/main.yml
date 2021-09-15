@@ -1,0 +1,5 @@
+---
+java_download_url: https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u275-b01/OpenJDK8U-jdk_x64_linux_hotspot_8u275b01.tar.gz
+java_archive_name: OpenJDK8U-jdk_x64_linux_hotspot_8u275b01.tar.gz
+java_root_dir: /opt/java
+java_jdk_dir: "{{ java_root_dir }}/jdk8u275-b01"

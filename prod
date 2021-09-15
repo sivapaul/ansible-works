@@ -1,0 +1,6 @@
+[bastion]
+bastion  ansible_ssh_host=10.0.0.71
+
+[prod]
+target ansible_host=10.0.0.2
+
