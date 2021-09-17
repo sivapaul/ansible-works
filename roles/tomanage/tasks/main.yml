@@ -1,0 +1,8 @@
+---
+## Services detail are stored in hostvariable
+- name: "{{ state }} services"
+  become: true
+  with_items: "{{ services }}"
+  service:
+    name: "{{ item.name }}"
+    state: "{{ state }}"
