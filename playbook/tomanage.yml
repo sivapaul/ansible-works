@@ -1,0 +1,8 @@
+---
+- name: main | Stop/Start tomcat service
+  hosts: "{{ hosts }}"
+  gather_facts: yes
+  vars:
+      state: "{{ state }}"
+  roles:
+    - { role: tomanage, become: yes }

@@ -1,0 +1,7 @@
+---
+- name: main | Install Java
+  hosts: "{{ hosts }}""
+  become: yes
+  gather_facts: yes
+  roles:
+    - { role: java, become: yes }

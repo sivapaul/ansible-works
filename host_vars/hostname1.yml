@@ -1,2 +1,6 @@
 ---
 # Host variables
+---
+services:
+- { name: app-01 }
+- { name: app-02 }
